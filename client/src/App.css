@@ -23,6 +23,9 @@ body {
   border-color: #c3e6cb;
 }
 
+.alert {
+  padding: none !important;
+}
 .alert-info {
   background-color: #cce5ff;
   border-color: #b8daff;
@@ -34,10 +37,13 @@ body {
   background-color: #7855FA ;
   width: 100%;
 }
-
+.btn-primary:hover {
+  background-color: #6a4bc8;
+}
 /* Input box */
 input[type="text"] {
   font-size: 1.1rem;
+  width: 100%;
 }
 .App {
   text-align: center;
